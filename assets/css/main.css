@@ -1,0 +1,31 @@
+@import './reset.css';
+@import './style.css';
+@import './responsivity.css';
+@import './scrollbar.css';
+@import './animation.css';
+
+/* default styles */
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+    --roboto: 'Roboto', sans-serif;
+    --white: #FFFFFF;
+    --black: #000000;
+    --green-200: #CBE4DE;
+    --green-300: #0E8388;
+    --green-400: #2E4F4F;
+    --green-800: #2C3333;
+    --green-button: #228B22;
+}
+
+body {
+    position: relative;
+    font-size: 1.6rem;
+    font-family: var(--roboto);
+    background-color: var(--black);
+}
+
+/* controls */
